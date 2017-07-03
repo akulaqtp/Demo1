@@ -6,11 +6,7 @@
 	<test name="MySource - Sanity Test Scripts">
 		<classes>
 
-			<class name="testscripts.Test_MySource_Staffing_CandidateInterviews" />		
-			<class name="testscripts.Test_MySource_Staffing_CandidateNew" />  
-			<class name="testscripts.Test_MySource_Staffing_CandidateSearch" />  
-			<class name="testscripts.Test_MySource_Staffing_MyTaskNHAList" />  
-			<class name="testscripts.Test_MySource_Staffing_MyTaskOffersList" />  
+			
 			<class name="testscripts.Test_MySource_Staffing_MyTasksInterview" />  
 			<class name="testscripts.Test_MySource_Staffing_MyTasksScheduling" />  
 			<class name="testscripts.Test_MySource_Staffing_RequisitionListingBO" />  
