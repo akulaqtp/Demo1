@@ -25,7 +25,7 @@
 			<id>MSJQA</id>
 			<properties>
 				<selenium.target.browser>firefox</selenium.target.browser>
-				<selenium.server.host>ithrlab3</selenium.server.host>
+				<selenium.server.host>vakula</selenium.server.host>
 				<selenium.target.host>https://mysourceqa.qualcomm.com</selenium.target.host>
 			</properties>
 		</profile>
@@ -33,7 +33,7 @@
 			<id>MSJSBX</id>
 			<properties>
 				<selenium.target.browser>firefox</selenium.target.browser>
-				<selenium.server.host>ithrlab4</selenium.server.host>
+				<selenium.server.host>vakula</selenium.server.host>
 				<selenium.target.host>https://mysourcesbx.qualcomm.com</selenium.target.host>
 			</properties>
 		</profile>
