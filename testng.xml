@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Test Scripts" parallel="classes" thread-count="10"
+	verbose="10">
+	<test name="MySource - Sanity Test Scripts">
+		<classes>
+
+			<class name="testscripts.Test_MySource_Staffing_CandidateInterviews" />		
+			<class name="testscripts.Test_MySource_Staffing_CandidateNew" />  
+			<class name="testscripts.Test_MySource_Staffing_CandidateSearch" />  
+			<class name="testscripts.Test_MySource_Staffing_MyTaskNHAList" />  
+			<class name="testscripts.Test_MySource_Staffing_MyTaskOffersList" />  
+			<class name="testscripts.Test_MySource_Staffing_MyTasksInterview" />  
+			<class name="testscripts.Test_MySource_Staffing_MyTasksScheduling" />  
+			<class name="testscripts.Test_MySource_Staffing_RequisitionListingBO" />  
+			<class name="testscripts.Test_MySource_Staffing_RequisitionListingFO" />  
+			<class name="testscripts.Test_MySource_Staffing_RequisitionSearch" />  
+			<class name="testscripts.Test_MySource_Staffing_SearchResult" />  
+			<class name="testscripts.Test_MySource_Staffing_VMC_CWFSummaryDashBoard" />  
+			<class name="testscripts.Test_MySource_Staffing_VMC_CWFSummaryDashBoard_AlternateURL" />  
+			<class name="testscripts.Test_MySource_Staffing_VMS_TempAssignmentOnboard" />  	
+
+	
+		</classes>
+	</test>
+
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+</suite>
